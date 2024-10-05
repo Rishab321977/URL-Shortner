@@ -44,7 +44,7 @@ export async function createUrl({title, longUrl, customUrl, user_id}, qrcode) {
     .insert([
       {
         title,
-        orginal_url: longUrl,
+        original_url: longUrl,
         custom_url: customUrl || null,
         user_id,
         short_url,
